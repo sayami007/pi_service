@@ -1,0 +1,43 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+
+    <Button
+        android:id="@+id/btnMainService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Main Service" />
+
+    <Button
+        android:id="@+id/btnIntentService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Intent Service" />
+
+    <Button
+        android:id="@+id/btnBoundService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bound Service" />
+
+    <Button
+        android:id="@+id/btnUnbind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Unbind" />
+
+
+    <Button
+        android:id="@+id/btnBoundServiceStop"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="StopService" />
+    <Button
+        android:id="@+id/btnGetNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Number" />
+</LinearLayout>
